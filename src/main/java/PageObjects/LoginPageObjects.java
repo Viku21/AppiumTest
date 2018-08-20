@@ -8,10 +8,11 @@ import io.appium.java_client.MobileElement;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.concurrent.TimeUnit;
 
 public class LoginPageObjects {
 	private AppiumDriver driver ;
+
+	log("Test - testSignIn");
 
 	@iOSFindBy(accessibility = "login_txtField_email")
 	public MobileElement email;

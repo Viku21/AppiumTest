@@ -15,6 +15,7 @@ public class logintest extends AppiumSetup {
     public void test1()
     {
         System.out.print("this is test one");
+        android.util.Log.d(TAG, "test1() called");
     }
 
     @Test

@@ -6,7 +6,6 @@ import io.appium.java_client.ios.IOSDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 
 import java.io.File;
